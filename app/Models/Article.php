@@ -10,7 +10,7 @@ class Article extends Model
     use HasFactory;
 
     protected $fillable = [
-        'writer_id',
+        'user_id',
     ];
 
     public function writer()
